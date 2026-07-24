@@ -1,0 +1,54 @@
+# ───────────────────────────────────────────
+#  Forest Fire Detector — .gitignore
+# ───────────────────────────────────────────
+
+# Python compiled / cache files  ← your .pyc files go here
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Alert snapshots & logs generated at runtime
+alerts/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+detection_log.csv
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
